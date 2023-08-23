@@ -1,0 +1,27 @@
+/* components/Header.module.css */
+
+.header {
+    background-color: #f8f9fa; /* Set your desired background color */
+}
+
+.brand {
+    color: #343a40; /* Set the brand color */
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: #6c757d; /* Set the link color */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.link:hover {
+    color: #007bff; /* Set the link hover color */
+}
