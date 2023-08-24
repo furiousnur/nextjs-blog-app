@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-export default function Home() {
+const Page = () => {
     return (
         <div>
             <section className="py-5 bg-light">
@@ -65,3 +65,5 @@ export default function Home() {
         </div>
     );
 }
+
+export default Page;
