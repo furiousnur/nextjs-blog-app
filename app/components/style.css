@@ -2,7 +2,7 @@
 
 /* Navbar container */
 .navbar {
-    background-color: #f8f9fa;
+    background-color: #1a1d20;
     text-align: center;
 }
 
@@ -10,7 +10,7 @@
 .navbar-brand {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #333;
+    color: white;
     cursor: pointer;
     margin-right: auto; /* Pushes the brand/logo to the left */
 }
@@ -28,7 +28,7 @@
 }
 
 .nav-link {
-    color: #333;
+    color: white;
     text-decoration: none;
     transition: color 0.3s;
     font-size: 28px;
@@ -36,5 +36,9 @@
 }
 
 .nav-link:hover {
-    color: #007bff;
+    color: rgb(255, 145, 8);
+}
+
+a{
+    text-decoration: none;
 }
